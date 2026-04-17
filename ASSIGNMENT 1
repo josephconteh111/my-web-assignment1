@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Introduction Page</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background: linear-gradient(to right, #e0f2fe, #f5f3ff);
+        }
+
+        header {
+            background: linear-gradient(to right, #1e3a8a, #2563eb);
+            color: white;
+            text-align: center;
+            padding: 25px;
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        .card {
+            margin: 15px 0;
+            padding: 15px;
+            border-radius: 10px;
+            color: white;
+        }
+
+        /* Different colors for each section */
+        .bio {
+            background: linear-gradient(to right, #16a34a, #22c55e);
+        }
+
+        .why {
+            background: linear-gradient(to right, #9333ea, #c084fc);
+        }
+
+        .goals {
+            background: linear-gradient(to right, #ea580c, #fb923c);
+        }
+
+        footer {
+            background: #111827;
+            color: white;
+            text-align: center;
+            padding: 12px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Joseph John Conteh</h1>
+        <p>Program: BSEM</p>
+    </header>
+
+    <!-- Body -->
+    <section>
+
+        <div class="card bio">
+            <h3>Short Bio</h3>
+            <p>
+                My name is Joseph John Conteh. I am passionate about technology,
+                creativity, and football. I enjoy learning new skills and building things online.
+            </p>
+        </div>
+
+        <div class="card why">
+            <h3>Why I Study Web Design</h3>
+            <p>
+                I study web design to learn how to create modern websites and bring ideas to life on the internet.
+            </p>
+            <p>Web design is a crucial skill in today's digital world, and I want to be at the forefront of this field.</p>
+            <p>I believe that by mastering web design, I can create impactful online experiences that resonate with users.</p>
+        </div>
+
+        <div class="card goals">
+            <h3>Career Goals</h3>
+            <p>
+                My goal is to become a successful web developer and entrepreneur in the tech space.
+            </p>
+            <p>I aim to build innovative web applications that solve real-world problems and improve people's lives.</p>
+            <p>Ultimately, I want to use my skills to make a positive impact on society through technology.</p>
+            <p>I am committed to continuous learning and staying updated with the latest industry trends to achieve these goals.</p>
+        </div>
+
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© Joseph Conteh, BSEM, Semester 1, ID: 905004676, 2026</p>
+    </footer>
+
+</body>
+</html>
